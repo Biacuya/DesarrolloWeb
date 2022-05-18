@@ -230,3 +230,32 @@ h3 {
     font-size: 2rem;
     font-family: var(--fontPrincipal);
 }
+
+/**Bloques**/
+
+.blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .blocks {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+
+}
+
+.block {
+    text-align: center;
+}
+
+.block_tittle {
+    margin: 0;
+}
+
+.block_img {
+    width: 70%;
+}
